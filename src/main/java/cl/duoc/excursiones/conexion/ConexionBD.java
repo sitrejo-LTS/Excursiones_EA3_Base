@@ -17,9 +17,9 @@ public class ConexionBD {
     //     MySQL  -> jdbc:mysql://<servidor>:<puerto>/<base_de_datos>
     //     Oracle -> jdbc:oracle:thin:@<servidor>:<puerto>/<servicio>
     // =====================================================================
-    private static final String URL = "";
-    private static final String USUARIO = "";
-    private static final String CLAVE = "";
+    private static final String URL = "jdbc:oracle:thin:@localhost:1521/FREE";
+    private static final String USUARIO = "system";
+    private static final String CLAVE = "123321";
 
     private ConexionBD() {
     }
